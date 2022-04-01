@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --form * .html . /
+cp --update *.html ..
