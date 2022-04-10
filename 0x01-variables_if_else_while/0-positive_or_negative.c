@@ -4,11 +4,11 @@
 
 #include <stdio.h>
 
-/* main - Entry points */
-
-
-
-/* Return: 0 always if successful */
+/**
+ * main - Entry points
+ *
+ * Return: always 0 if successful
+ */
 
 int main(void)
 
