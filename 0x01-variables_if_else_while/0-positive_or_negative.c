@@ -1,35 +1,29 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
 
-/**
- * main - Entry points
- *
- * Return: 0 always if successful
- */
+/* main - Entry points */
 
+
+
+/* Return: 0 always if successful */
 
 int main(void)
+
 {
-	int n:
-		srand(time(0));
-	n = rand() - RAND_MAX / 2;
 
-	if (n==0)
-	{
-		 printf("%i is zero\n", n);
-	}
+		int n;
 
-	else if (n<0)
-	{
-		printf("%i is negative\n", n);
-	}
+			srand(time(0));
 
-	else
-	{
-		printf("%i is positive\n", n);
-	}
+			n = rand() - RAND_MAX / 2;
 
-	return (0);
-
+					 if (n == 0)
+					 {printf("%i is zero\n", n); }
+					 else if (n < 0)
+					 {printf("%i is negative\n", n);}
+					 else {printf("%i is positive\n", n);}
+					return (0);
 }
