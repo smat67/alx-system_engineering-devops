@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'chown --from*guillaume betty hello' >> 102-if_only
+echo 'chown --from* guillaume betty hello' >> 102-if_only
