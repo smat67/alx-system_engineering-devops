@@ -13,5 +13,4 @@ void print_letter(void)
 		_putchar(letter);
 	}
 	_putchar('\n');
-	return (0);
 }
