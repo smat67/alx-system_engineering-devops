@@ -4,9 +4,10 @@
  *
  * Return: 0 always
  */
-void print_letter(void);
+void print_letter(void)
 {
 	char letter;
+
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		_putchar(letter);
