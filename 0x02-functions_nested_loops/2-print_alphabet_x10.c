@@ -1,8 +1,8 @@
-nclude "main.h"
+#include "main.h"
 /**
  * prints_alphabet_x10 - Prints in lowercase
  */
-void prints_alphabet_x10(void)
+void prints_alphabet_x10(void);
 {
 	int count = 0;
 	char letter;
