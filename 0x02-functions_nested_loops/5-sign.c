@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign : return 0 letter not lowercase, 1 letter lowercase
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase
  * @n: sign number to be printed
  *
  * Return: 1 if number is greater than zero,
