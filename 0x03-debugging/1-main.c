@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - causing the output to go into an infinite loop.
+ * main - causes an infinite loop.
  * Return: 0
  */
 
@@ -15,9 +15,11 @@ int main(void)
 	/*
 	 * while (i < 10)
 	 * {
+	 * infinite loop - No icrease of variable
 	 * putchar(i);
 	 * }
 	 */
+
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }
