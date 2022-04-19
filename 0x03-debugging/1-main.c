@@ -4,7 +4,7 @@
  * Return: 0
  */
 
-int main(voidi)
+int main(void)
 {
 	int i;
 
