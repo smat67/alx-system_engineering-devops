@@ -19,4 +19,4 @@ void _puts(char *str)
 		_putchar(c[z]);
 	}
 	_putchar('\n');
-}	
+}
