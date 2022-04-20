@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character of a string
- * @str - Apointer to an int updated
+ * @str - A pointer to an int updated
  *
  * Return: void
  */
