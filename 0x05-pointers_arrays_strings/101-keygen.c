@@ -25,11 +25,9 @@ int main(void)
 			y += x;
 		}
 	}
-	a[z++] = (2772 - n);
+	a[z++] = (2772 - y);
 	a[z] = '\0';
 	printf("%s", a);
 
 	return (0);
 }
-
-
