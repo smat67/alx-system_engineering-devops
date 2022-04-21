@@ -4,6 +4,7 @@
  * 
  * Return: void
  */
+
 void times_table(void)
 {
 	int num, multi, prod;
@@ -25,8 +26,13 @@ void times_table(void)
 			}
 			else
 				if (prod < 10 && multi != 0)
+				{
+					_putchar(',');
+					_putchar((prod % 10) + '0');
+				}
+				else
+					_putchar((prod % 10) + '0');
 		}
 		_putchar('\n');
 	}
 }
-
