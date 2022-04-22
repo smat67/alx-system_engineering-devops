@@ -3,7 +3,7 @@
 
 /**
  * print_remaining_days - takes and prints remaining days
- * @month:  month in a number format
+ * @month: month in a number format
  * @day: day of the month
  * @year: year
  * Return: void
@@ -17,6 +17,7 @@ void print_remaining_days(int month, int day, int year)
 		{
 			day++;
 		}
+		
 		printf("Day of the year: %d\n", day);
 		printf("Remaining days: %d\n", 366 - day);
 	}
