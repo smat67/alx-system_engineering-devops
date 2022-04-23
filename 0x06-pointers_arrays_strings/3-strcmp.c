@@ -2,7 +2,7 @@
 
 /**
  * -strcmp -function that compares two strings
- *  @s1: First string
+ *  @s1: First string pointed
  *  @s2: Second string
  *  Return: negative if s1 < s2; 0 if matching and positive if s1 > s2
  */
