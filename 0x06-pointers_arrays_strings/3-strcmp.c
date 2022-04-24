@@ -9,37 +9,14 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int w = 0, x = 0, y = 0, z = 0, limi;
-
-	while (s1[w])
+	while (*s1 != '\0' || *s2 != '\0')/* excluding the null byte from the string*/
 	{
-		w++;
-	}
-	while (s2[x])
-	{
-		x++;
-	}
-	if (w <= x)
-	{
-		limi = w
-	}
-	else
-	{
-		limi = x;
-	}
-	while (y <= limi)
-	{
-		if (s1[y] == s2[y])
+		if (*s1 != *s2)/* if element of arr1 in arr2 are diff, return difference */
 		{
-			y++;
-			continue;
+			return (*s1 - *s2);
 		}
-		else
-		{
-			z = s1[y] - s2[y];
-			break;
-		}
-		y++;
+		s1++;
+		s2++;
 	}
-	return (z);
+	return (0);
 }
